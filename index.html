@@ -9,19 +9,19 @@
 </head>
 <body>
 
-<section class="intro">
+<section class="intro" id="home">
   <div class="wrapper">
     <div class="bg-str">
       <header>
         <div class="flex-container-big">
           <a class="logo" href="#">Cahee</a>
           <div class="flex-container">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Gallery</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact-us">Contact</a>
           </div>
         </div>
       </header>
@@ -39,8 +39,8 @@
       </a>
     </div>
   </div>
-</section>
-<section class="cyan">
+</section >
+<section class="cyan" id="about">
   <div class="wrapper">
     <div class="about-us">
       <img src="images/cup.png" alt="cup">
@@ -52,23 +52,29 @@
     </div>
   </div>
 </section>
-<section class="blue">
+<section class="blue" id="services">
   <div class="wrapper">
 
     <div class="flex-two-item">
       <div class="flex-products">
 
-        <a href="/" class="name">Online Shop</a>
-        <a href="/" class="icon"><img src="images/icon-1.png" alt="icon"></a>
-
-        <a href="/" class="name">Quality Product</a>
-        <a href="/" class="icon"><img src="images/icon-2.png" alt="icon"></a>
-
-        <a href="/" class="name line-50">Domestic & International Delivery</a>
-        <a href="/" class="icon"><img src="images/icon-3.png" alt="icon"></a>
-
-        <a href="/" class="name">Well Organized</a>
-        <a href="/" class="icon"><img src="images/icon-4.png" alt="icon"></a>
+        <a href="/">
+          <span class="name">Online Shop</span>
+          <span class="icon"><img src="images/icon-1.png" alt="icon"></span>
+        </a>
+        <a href="/">
+          <span class="name">Quality Product</span>
+          <span class="icon"><img src="images/icon-2.png" alt="icon"></span>
+        </a>
+        <a href="/">
+          <span class="name center">Domestic & International
+            <br>Delivery</span>
+          <span class="icon"><img src="images/icon-3.png" alt="icon"></span>
+        </a>
+        <a href="/">
+          <span class="name">Well Organized</span>
+          <span class="icon"><img src="images/icon-4.png" alt="icon"></span>
+        </a>
 
       </div>
       <img src="images/tomato.png" alt="tomato">
@@ -76,7 +82,7 @@
   </div>
 
 </section>
-<section class="yellow">
+<section class="yellow" id="gallery">
   <div class="wrapper">
     <div class="gallery-text">
       <h2>Gallery</h2>
@@ -84,22 +90,105 @@
         minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
     <div class="gallery-container">
-      <!--<div class="flex-item-img">-->
-        <img src="images/g-img-1.png" alt="fruits">
-      <!--</div>-->
+
+      <img src="images/g-img-1.png" alt="fruits">
+
       <div class="flex-item-img little">
         <img src="images/g-img-2.png" alt="fruits">
         <img src="images/g-img-3.png" alt="fruits">
       </div>
-      <!--<div class="flex-item-img">-->
-        <img src="images/g-img-4.png" alt="fruits">
-      <!--</div>
-      <div class="flex-item-img">-->
-        <img src="images/g-img-5.png" alt="fruits">
-      <!--</div>-->
+
+      <img src="images/g-img-4.png" alt="fruits">
+
+      <img src="images/g-img-5.png" alt="fruits">
+
     </div>
     <a href="/" class="btn btn-blue">view more</a>
   </div>
+</section>
+
+<section class="bg-berry">
+    <div class="wrapper bg-2">
+      <div class="subscribe-text">
+        <h3>Subscribe To Us</h3>
+        <p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor<br> incididunt ut labore et dolore magna
+          aliqua. Ut enim ad minim veniam.</p>
+      </div>
+      <div class="flex-subs">
+        <label>
+          <input type="email" name="email" placeholder="Your email adress">
+        </label>
+        <button type="button">SUBSCRIBE</button>
+      </div>
+  </div>
+</section>
+
+<section class="blog" id="blog">
+  <div class="wrapper">
+    <div class="blog-text">
+      <h2>Blog</h2>
+      <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+    </div>
+    <div class="blog-container">
+        <a href="/">
+          <div class="data"><span>20</span> nov</div>
+        <img src="images/food-1.png" alt="food">
+          <h5>Green Smoothies: Too Much of a Good Thing?<br> <span> By Auskteez - 2 hour</span></h5>
+        </a>
+        <a href="/">
+          <div class="data"><span>14</span> nov</div>
+          <img src="images/food-2.png" alt="food">
+          <h5>Growing Food and a “Thirst” for Innovation<br> <span> By Auskteez - 3 hour</span></h5>
+        </a>
+        <a href="/">
+          <div class="data"><span>10</span> nov</div>
+          <img src="images/food-3.png" alt="food">
+          <h5>Pesticides & Food: What You Need to Know<br> <span> By Auskteez - 6 hour</span></h5>
+        </a>
+    </div>
+    <button type="button" class="btn btn-pink">VIEW MORE</button>
+  </div>
+</section>
+
+<section id="contact-us">
+  <div class="wrapper">
+    <div class="contact-text">
+      <h2>Contact</h2>
+      <p>For new projects, ideas, business or anything
+        you'd like to discuss, contact with me!</p>
+    </div>
+    <div class="contact-info">
+      <form action="#" method="post">
+          <input class="name" type="text" name="name" placeholder="Name">
+          <input type="email" name="email" placeholder="Your email...">
+          <input class="phone" type="text" name="number" placeholder="Your phone number">
+        <label for="textarea"></label>
+        <textarea typeof="text" placeholder="Your massage" id="textarea"></textarea>
+      </form>
+      <div class="our-contact">
+        <div class="info-item">
+          <h4>Adress</h4>
+          <p>123 City name, Street, City, Country</p>
+        </div>
+        <div class="info-item">
+          <h4>Email</h4>
+          <p>cahee@domain.com</p>
+        </div>
+        <div class="info-item">
+          <h4>Phone</h4>
+          <p>+012 345 6789</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="black">
+<footer>
+    <span>© 2015 Company. All right reserved.</span>
+    <span class="logo-bottom">Cahee</span>
+  <span>Made with <span>love </span> by Auskteez </span>
+</footer>
 </section>
 </body>
 </html>
